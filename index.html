@@ -3,9 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Piggyvest Sign up page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-    <script src="script.js"></script>
+  
+  <div class="container-fluid">
+    <nav id="page-nav">
+        <!-- [THE HAMBURGER] -->
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger"/>
+  
+        <!-- [MENU ITEMS] -->
+        <ul>
+          <li><a href="#aboutme">About</a></li>
+          <li><a href="#myinfo">Bio data</a></li>
+          <li><a href="#hitme">Contact</a></li>
+        </ul>
+      </nav>
+      <ul id="myinfo">
+        <li> Name:David Samuel Uche </li>
+          <li>State of origin: Benue </li> 
+          <li>Date of birth:27th November 1997</li> 
+          <li>Address: Along Airport Road Lugbe, Abuja</li> 
+          <li>Occupation: Serving Corp Member</li>
+          <li>Home town:Otupko</li> 
+          <li>Slack ID:Davidtariq96</li>
+          <li><img src="./image/IMG_20181228_165937_7 (2).jpg" alt="" id="myimage"></li>
+      </ul>
+      <div id="aboutme">
+        <h2>Summary About myself</h2><p>
+        I'm just a guy who loves challenges,loves anything that stimulate my intellect,<br>
+          always belief in my dreams and doing the best i could to achieve them.<br> An extrovet who loves to meet 
+          people and make new friends<p>
+            Hobbies: Coding,Football, Reading, Travelling<br>
+            Interests: Programming,Music e.t.c
+          </p> </p></div>
+          
+    <form>
+      <div class="heading">
+        <h2 style="color: white;font-size: 3em;">Contact me</h2><p>
+          <h5 style="color: rgb(190, 187, 187); font-size: 1.2em;">Got a question? i'd love to hear from you. Send me a message and i'll respond
+            as soon as possible
+          </h5>
+        </p>
+      </div>
+      <label for="name"> Name</label>
+      <input type="text" id="name" name=" Name" >
+      <label for="email"> Email Address</label>
+      <input type="text" id="email" name="email" >
+      <label for="Message">Message</label>
+      <input type="textarea" id="Message"  style="padding: 55px;">
+      <input type="submit" value="Submit" class="key">
+    </form>
+    <div class="footer" id="hitme">
+      <a href="https://github.com/Davidtariq96"><img src="./image/github-brands.svg" alt=""></a>
+      <a href="https://twitter.com/tariq_david/status/1249089485993902082?s=20"><img src="./image/twitter-brands.svg" alt=""></a>
+      <a href="*"><img src="./image/phone-solid.svg" alt=""><hi style="margin-top: -0.3em;">phone:+234816326622</hi> </a>
+
+    </div>
+  </div>    
 </body>
+<script src="script.js"></script>
 </html>
