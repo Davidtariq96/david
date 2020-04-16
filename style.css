@@ -50,15 +50,17 @@
   }
   #aboutme{
       margin-left: 2.4em;
+      margin-top: 1.5em;
   }
   ul, #myinfo{
       list-style-type: none;
       margin-top: 3em;
   }
   ul li img, #myimage{
-      width: 150px;
-      height: 150px;
+      width: 165px;
+      height: 165px;
       border-radius: 50%;
+      margin-top: 2.7em;
   }
   form{
       background: slateblue;
@@ -66,7 +68,8 @@
       min-width: 100px;
       max-width: 620px;
       padding: 50px;
-      height: 650px;
+      max-height: 650px;
+      min-height: 700px;
       display: block;margin-top: 6em;
       
   }
@@ -85,7 +88,7 @@
       margin-top: 20px;
       background: rgb(19, 19, 138);
       color: white;
-      margin-bottom: 2em;
+      margin-bottom: 3em;
       padding: 0.3em;
 
   }
