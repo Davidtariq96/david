@@ -38,8 +38,22 @@
     color: #fff;
     text-decoration: none;
   }
+  .section{
+      background-image: url(./image/web-developer-4-768x427.jpg);
+      opacity: 4em;
+      color: white;
+      padding-bottom: 9em;
+      margin-bottom: -2em;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 1em;
+  }
+  #aboutme{
+      margin-left: 2.4em;
+  }
   ul, #myinfo{
       list-style-type: none;
+      margin-top: 3em;
   }
   ul li img, #myimage{
       width: 150px;
@@ -53,7 +67,7 @@
       max-width: 620px;
       padding: 50px;
       height: 650px;
-      display: block;
+      display: block;margin-top: 6em;
       
   }
   .heading{
@@ -83,9 +97,54 @@
   .footer{
       background:  rgb(102, 159, 216);
       margin-top: 2em;
+      padding: 3em 0em 3em 0em;
+      text-align: center;
   }
   .footer a img{
       width: 40px;
       margin: 2em 0em 1em 2em;   
-      
+    
   }
+  .footer h5{
+      font-size: 0.9em;
+      color: grey;
+      margin-left: 2em;
+  }
+  .section h1{
+      color: white;
+      text-align: center;
+      font-size: 3em;
+  }
+  .section h4 i{
+    color: rgb(133, 30, 30);
+  }
+  .section h4{
+      text-align: center;
+      margin-top: -1em;
+  }
+  @media screen and (max-width:768px){
+    #page-nav label{
+        display:inline-block ;color: #fff;
+        background: #a02620;
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 10px;
+
+    }   
+    #page-nav ul li{
+        display: block;
+    }
+    #page-nav ul li{
+        border-top: 1px solid white;
+    }
+    #page-nav ul li:hover{
+        background: grey;
+    }
+    #page-nav ul{
+        display: none;
+    } 
+    #page-nav input:checked ~ ul{
+        display: block;
+
+    }
+}
